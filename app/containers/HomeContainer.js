@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import HomeComponent from '../components/HomeContainer'
+import HomeComponent from '../components/HomeComponent'
 
 export default class HomeContainer extends Component {
   constructor(props) {
