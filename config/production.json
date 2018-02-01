@@ -1,0 +1,14 @@
+{
+  "Customer":{
+    "dbConfig":{
+      "uri":"mongodb://root:pass@address"
+    }
+  },
+  "Presets":{
+    "users":{
+      "teamuser":"team@monettatech.com",
+      "teampassword":"Gordon_Patrick1",
+    },
+    "port":8080
+  }
+}

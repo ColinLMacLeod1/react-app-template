@@ -1,0 +1,28 @@
+@import _mixins.sass
+@import _placeholders.sass
+@import _variables.sass
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Roboto|Material+Icons')
+@import url('https://fonts.googleapis.com/css?family=Lato')
+
+html, body, iframe
+  margin: 0
+  padding: 0
+  border: none
+  font-family: "Lato"
+  font-size: 18px
+  min-width: 320px
+  @include desktopSmall {font-size: 14px}
+  @include mobileMedia {font-size: 10px}
+
+.Header
+  width: 100%
+  height: $headerHeight
+  display: flex
+  justify-content: center
+
+.Footer
+  display: inline-flex
+  justify-content: center
+  height: $headerHeight
+  width: 100%

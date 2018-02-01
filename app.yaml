@@ -1,0 +1,8 @@
+runtime: nodejs
+env: flex
+env_variables:
+  NODE_ENV: production
+  MONGODB_URI: mongodb://root:pass@address
+handlers:
+- url: /.well-known
+  static_dir: well-known
